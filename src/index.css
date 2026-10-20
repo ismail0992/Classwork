@@ -1,0 +1,30 @@
+:root {
+  font-family: "DM Sans", sans-serif;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-weight: 400;
+  color: #20261f;
+  background: #f8f9f6;
+}
+html {
+  min-width: 320px;
+  min-height: 100%;
+  scroll-behavior: smooth;
+}
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+}
+#root {
+  min-height: 100vh;
+}
+button {
+  font-family: inherit;
+}
+::selection {
+  background: #dcebd8;
+  color: #294a31;
+}
